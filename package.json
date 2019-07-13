@@ -5,7 +5,7 @@
     "main": "",
     "scripts": {
         "test": "npm run",
-        "start": "webpack js/app.js --output build/app.bundle.js",
+        "start": "webpack",
         "init-project": "npm install && npm-run-all init:*",
         "init:dirs": "mkdirp js",
         "init:files": "touch README.md",
